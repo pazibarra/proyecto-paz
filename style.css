@@ -105,44 +105,38 @@ ul li a{
    margin-top: 5px;
 }
 
-.piedefoto {
+.font-monospace{   
+        display: flex;
+        width: 300px;
+        font-size: 40px;
+        text-align: center;                
+        margin-top: 10px;    
+        margin-bottom: auto; 
+        margin-left: 300px;
+                
+}   
+
+.font-monospace2{
+        display: flex;
+        width: 300px;
+        font-size: 40px;
+        text-align: center;                
+        margin-top: 40px;    
+        margin-bottom: auto;       
+
+}
+
+.font-monospace3{
+    display: flex;
     width: 300px;
     font-size: 40px;
-    text-align: center;
-    margin-left: 30rem;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 10px;    
+    text-align: center;                
+    margin-top: 40px;    
     margin-bottom: auto; 
-    margin-right: auto; 
-    text-decoration: underline;    
+    margin-left: 200px;
+}    
     
-    
-
-}
-
-.piedefoto2 {
-    width: 300px;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 2rem;
-    margin-top: 10px;    
-    margin-bottom: 10px;        
-    background-color:burlywood;
-    border-radius: .2rem
-}
-
-.piedefoto3{
-    width: 300px;    
-    font-size: 40px;    
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;  
-    margin-top: 10px;
-    margin-bottom: 10px; 
-    text-decoration: underline;
-    border-radius: .2rem
-}
-
+   
 
 .torta{
     margin-top: 20px;
