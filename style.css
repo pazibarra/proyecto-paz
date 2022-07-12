@@ -54,6 +54,59 @@ ul li a{
 
 /*index*/
 
+.lugar{
+    width: 450px;    
+    height: 350px;
+    border: 1px solid #db7a2a;
+    margin-left: 40px;
+    margin-right: 10px;
+    border-radius: 40px;
+}
+
+.lugar2{
+    width: 450px;    
+    height: 350px;
+    border: 1px solid #db7a2a;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 40px;
+
+}
+
+.cajita{
+    width: 1000px;
+    height: 400px;
+    
+    margin: 0 auto;
+    display: flex;
+    background-color: rgb(228, 203, 203);
+}
+
+.caja{
+    width: 1000px;
+    height: 450px;
+    
+    margin: 0 auto;
+    display: flex;
+    background-color: rgb(228, 203, 203);
+}
+
+.segundacaja{
+    width: 1000px;
+    height: 650px;
+    
+    margin: 0 auto;
+    display: flex;
+    background-color: rgb(228, 203, 203);
+}
+
+.titulo{
+    font-family: monospace;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+    align-items: center;
+}
 
 /*our coffee*/
 
@@ -189,7 +242,7 @@ span:hover{
 
 .caja5{
     width: 1000px;
-    height: 400px;
+    height: 600px;
     
     margin: 0 auto;
     display: flex;
@@ -203,6 +256,9 @@ span:hover{
     margin-left: 200px;
     align-self: center;
 }
+
+
+
 
 .panaderia{
     width: 1000px;
@@ -219,7 +275,7 @@ span:hover{
 
 .caja2{
     width: 1000px;
-    height: 400px;
+    height: 600px;
     
     margin: 0 auto;
     display: flex;
@@ -245,6 +301,17 @@ span:hover{
     border: 1px solid #db7a2a;
     margin-left: 10px;
     margin-right: 10px;
+    border-radius: 40px;
+}
+
+.foto2{
+    width: 350px;    
+    height: 450px;
+    border: 1px solid #db7a2a;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 40px;
+
 }
 
 
@@ -255,38 +322,69 @@ span:hover{
     border: 1px solid #db7a2a;
     margin-right: 10px;
     margin-left: 10px;
+    border-radius: 40px;
 }
 
 .caja1{   
     
     width: 1000px;
-    height: 700px;
+    height: 500px;
     column-gap: 20px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;    
-    background-color: rgb(228, 203, 203);     
+    align-items: flex-start;  
+    background-color: rgb(228, 203, 203);  
+    border: solid black 1px;   
     
 }
 .torta{
     width: 350px;    
     height: 450px;
     border: 1px solid #db7a2a;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 500px;
    
 }
 
 .especialidad{
-    font-family: monospace;
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
     font-size: 30px;
-    margin-bottom: 300px;
-    margin-right: 100px;
-    text-decoration:underline;
-    width: 400px;
-    text-align: center;
+    background-color: #eb9b5a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
 }
+
+.otra{
+    width: 1000px;
+    height: 300px;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 203, 203);
+}
+
+.otra .made{
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+
+    
+
+
+
 
 
 
